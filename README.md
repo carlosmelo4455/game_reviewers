@@ -2,6 +2,9 @@
 
 **Uma aplicação Web em Java SPRING com consulta a bancos de dados e programação orientada a dominio**
 
+
+#### Uma aplicação de review de games famosos e sua nota/score média.
+
 ## Aprendizados:
 
   -     Cliente/servidor, HTTP, JSON
