@@ -1,10 +1,17 @@
 package com.carlosmelo.dslist.entities;
 
+import jakarta.persistence.*;
+
 import java.util.Objects;
 
+@Entity
+@Table(name = "tb_game")
 public class Game {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String title;
+    @Column(name = "game_year")
     private Integer year;
     private String genre;
     private String platforms;
@@ -13,7 +20,7 @@ public class Game {
     private String shortDescription;
     private String LongDescription;
 
-    public Game(){
+    public Game() {
 
     }
 
